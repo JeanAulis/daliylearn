@@ -27,3 +27,6 @@
 
 # 忽略作业提交的.zip文件
 /day01/homework/*.zip
+
+# 忽略out输出文件夹
+/out/

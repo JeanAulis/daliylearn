@@ -38,7 +38,13 @@ public class HomeWork01 {
 //        int b = ++a;
 //        int c = a++;
 //        int result = b++ + ++c;
-//        答：自上而下：a = 10, b = 11, c = 10, a = 11
+//        答：
+//        int a = 10; //a = 10
+//        int b = ++a; // a = 11, b = 11
+//        int c = a++; // a = 11, b = 11, c = 11
+//        int result = b++ + ++c; // a = 12, b = 11, c = 12
+//        最终输出result = 23, 输出后a = 12, b = 12, c = 12
+
 
 //        1.5 简答题五
 //        描述下算数运算符中 , / 和 % 的特点
@@ -75,9 +81,10 @@ public class HomeWork01 {
 //        }
 //        答: (务必说明原因)
 //        boolean result = x++ > 3 && --y < 4; //这里等价于 boolean result = 3 > 3 && 3 < 4;
-//        运行之后result为false, x = 4, y = 3
+//        &&短路与左边左边为true，右边不执行，所以result为false，不执行--y
+//        运行之后result为false, x = 4, y = 4
 
-//        1.9 简答题八
+//        1.9 简答题九
 //        请结合下列代码, 描述 if 语句执行流程
 //        if(判断条件1){
 //            语句体1;
