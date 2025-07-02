@@ -1,37 +1,8 @@
-/day01/day01.iml
-/day01/Demo01.java
-/day01/Demo01.class
-/day01/Demo02.java
-/day01/Demo02.class
-/day01/Demo03.java
-/day01/Demo03.class
-/day01/Demo04.java
-/day01/Demo04.class
-/day01/Demo05.java
-/day01/Demo05.class
-/day01/Demo06.java
-/day01/Demo06.class
-/day01/Demo07.java
-/day01/HelloWorld.java
-/day01/HelloWorld.class
-/day01/.idea/
-/day02/Demo01.java
-/day02/Demo02.java
-/day02/Demo03.java
-/day02/Demo04.java
-/day02/Test.java
-/.idea/
-
-day02/.DS_Store
-day01/.DS_Store
-day01/homework/.DS_Store
-day01/homework/day01-农锦丰.zip
-
-
-
+# 忽略所有的.DS_Store文件
 .DS_Store
+**/.DS_Store
 
-
+# 忽略所有的压缩包
 *.zip
 *.rar
 *.7z
@@ -41,3 +12,18 @@ day01/homework/day01-农锦丰.zip
 *.tar.xz
 *.tar.lzma
 *.tar.zst
+
+# 忽略day01目录下所有的.class文件和IDE配置文件
+/day01/*.class
+/day01/.idea/
+/day01/Demo*.java
+/day01/HelloWorld.java
+
+# 忽略day02目录下所有的.java文件
+/day02/*.java
+
+# 忽略Test.java文件
+/day02/Test.java
+
+# 忽略作业提交的.zip文件
+/day01/homework/*.zip
