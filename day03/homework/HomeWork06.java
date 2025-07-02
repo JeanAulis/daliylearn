@@ -33,7 +33,6 @@ public class HomeWork06 {
             }catch (Exception e){
                 System.out.println("请输入合法数字！");
                 sc.nextLine();
-                System.out.println("您录入的数字无效, 请重新录入!");
             }
         }
     }
