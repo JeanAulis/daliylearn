@@ -30,3 +30,14 @@ day01/homework/day01-农锦丰.zip
 
 
 .DS_Store
+
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.lzma
+*.tar.zst
