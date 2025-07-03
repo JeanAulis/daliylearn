@@ -1,7 +1,5 @@
 package practice;
 
-import java.math.BigDecimal;
-
 public class practice09 {
     public static void main(String[] args) {
 //        第九题
