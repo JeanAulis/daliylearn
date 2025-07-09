@@ -1,4 +1,4 @@
-package com.itheima._5继承方法重写;
+package com.itheima._05继承方法重写;
 
 /**
  * @Description NewPhone
