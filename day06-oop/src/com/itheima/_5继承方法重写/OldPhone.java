@@ -10,7 +10,8 @@ public class OldPhone {
         System.out.println("打电话");
     }
 
-    public void sendMessage() {
+    OldPhone sendMessage() {
         System.out.println("发短信");
+        return null;
     }
 }

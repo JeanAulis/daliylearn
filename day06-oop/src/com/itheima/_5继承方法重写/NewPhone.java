@@ -13,7 +13,8 @@ public class NewPhone extends OldPhone{
     }
 
     @Override
-    public void sendMessage() {
+    protected OldPhone sendMessage() {
         System.out.println("发彩信");
+        return null;
     }
 }
