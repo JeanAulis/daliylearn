@@ -94,8 +94,23 @@ public class MovieOperator {
      * @param id
      */
     public static void showMovieDetail(int id) {
-        for (int i = 0; i < movies.length; i++) {
+        for (Movie movie : movies) {
 
+            //2.对比每部电影的id与传入的id是否相等。如果相等展现这部电影详情
+            if(movie.getId() == id){
+                System.out.println("电影名称：" + movie.getName());
+                System.out.println("导演：" + movie.getDirector());
+                System.out.println("主演：" + String.join("，", movie.getActs()));//Arrays.toString( movie.getActs())
+                System.out.println("评分：" + movie.getScore());
+                System.out.println("想看人数：" + movie.getWantWatchNumbers()+" 万人想看");
+                System.out.println("海报链接：" + movie.getPoster());
+                System.out.println("------------------------");
+                return;//结束，不用在遍历
+            }
         }
+
+        //3.如果没有找到说明id编号不存在
+        //来到这里说明没有找到匹配的id
+        System.err.println("输入的电影编号不存在！");
     }
 }
