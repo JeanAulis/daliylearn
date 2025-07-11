@@ -24,7 +24,7 @@ public class SilverCard extends Card{
         }
 
         this.setMoney(this.getMoney() - money);
-        System.out.printf("消费成功，成功消费%f元，余额%f元！%n", money, this.getMoney());
+        System.out.printf("消费成功，成功消费%.2f元，余额%.2f元！%n", money, this.getMoney());
 
     }
 }
