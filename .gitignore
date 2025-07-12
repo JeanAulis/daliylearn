@@ -31,3 +31,4 @@
 # 忽略out输出文件夹
 /out/
 /.idea/inspectionProfiles/Project_Default.xml
+/.idea/.cache/.Apifox_Helper/.toolWindow.db
