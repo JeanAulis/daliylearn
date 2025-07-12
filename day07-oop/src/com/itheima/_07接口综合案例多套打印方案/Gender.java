@@ -1,4 +1,4 @@
-package com.itheima._08接口综合案例多套打印方案;
+package com.itheima._07接口综合案例多套打印方案;
 
 /**
  * @Description Gender
