@@ -40,4 +40,12 @@ public class Student implements SwimAble {
     public int compareAgeDesc(Student o1, Student o2){
         return o2.getAge() - o1.getAge();
     }
+
+    public int compareAgeAsc2(Student o2){
+        return this.getAge() - o2.getAge();
+    }
+
+    public int compareAgeDesc2(Student o2){
+        return o2.getAge()- this.getAge();
+    }
 }
