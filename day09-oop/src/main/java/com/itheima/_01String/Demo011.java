@@ -1,10 +1,6 @@
 package com.itheima._01String;
 
-/**
- * @Description Demo031
- * @Author songyu
- * @Date 2024-12-11  11:40
- */
+
 public class Demo011 {
 
     public static void main(String[] args) {
