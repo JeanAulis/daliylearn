@@ -26,5 +26,20 @@ public class Demo08 {
         for (Student student : students) {
             System.out.println(student);
         }
+
+
+        System.out.println();
+        System.out.println("按照年龄升序排序：");
+        Student s1 = new Student();
+        Arrays.sort(students, s1::compareAgeAsc);//代替：(o1, o2)->o1.getAge() - o2.getAge()
+        for (Student student : students) {
+            System.out.println(student);
+        }
+
+        System.out.println("按年龄升序排序");
+        Arrays.sort(students, s1::compareAgeDesc);
+        for (Student student : students) {
+            System.out.println(student);
+        }
     }
 }
