@@ -1,11 +1,11 @@
-package com.itheima._04匿名内部类;
+package com.itheima._05Lambda表达式;
 
 /**
- * @Description Demo04
+ * @Description Demo06
  * @Author jeanAulis
  * @Date 2025-07-15
  */
-public class Demo04 {
+public class Demo06 {
     public static void main(String[] args) {
         SwimAble s1 = new Student();
         s1.swimming();
@@ -13,7 +13,7 @@ public class Demo04 {
         SwimAble s2 = new SwimAble() {
             @Override
             public void swimming() {
-                System.out.println("匿名");
+                System.out.println("匿名1");
             }
         };
         s2.swimming();
@@ -24,6 +24,16 @@ public class Demo04 {
                 System.out.println("匿名2");
             }
         });
+
+        SwimAble s3 = ()-> {
+                System.out.println("匿名3");
+        };
+        s3.swimming();
+
+        SwimAble s4 = ()-> System.out.println("匿名4");
+        s4.swimming();
+
+        demo(() -> System.out.println("匿名5"));
 
     }
 
