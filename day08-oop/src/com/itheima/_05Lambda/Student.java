@@ -1,4 +1,4 @@
-package com.itheima._05Lambda表达式;
+package com.itheima._05Lambda;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
